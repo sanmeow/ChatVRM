@@ -1,3 +1,13 @@
+# Foreign Input Version
+This version is setup for Traditional Chinese input, and skip API Key setup. You can modify inside the code.
+It is changed easier for user to share with friends to test and play.
+
+I can't find a TTS with emotion control so I use the default Koeiro API.
+Wish other people can expand the posibility of this code!
+e.g. Use Edge-TTS speak other language, generate Stable Diffusion art through API... 
+
+Thanks for VRM and Pixiv for this nice project!
+
 # ChatVRM
 
 ChatVRMはブラウザで簡単に3Dキャラクターと会話ができるデモアプリケーションです。

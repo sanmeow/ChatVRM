@@ -63,7 +63,9 @@ export const MessageInputContainer = ({
       window.webkitSpeechRecognition || window.SpeechRecognition;
 
     const recognition = new SpeechRecognition();
-    recognition.lang = "ja-JP";
+
+    recognition.lang = "zh-TW"; // Modify your language HERE!! Look up BCP 47 Language Codes.
+
     recognition.interimResults = true; // 認識の途中結果を返す
     recognition.continuous = false; // 発言の終了時に認識を終了する
 

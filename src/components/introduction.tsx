@@ -72,32 +72,6 @@ export const Introduction = ({ openAiKey, onChangeAiKey }: Props) => {
           </div>
         </div>
         <div className="my-24">
-          <div className="my-8 font-bold typography-20 text-secondary">
-            OpenAI APIキー
-          </div>
-          <input
-            type="text"
-            placeholder="sk-..."
-            value={openAiKey}
-            onChange={handleAiKeyChange}
-            className="my-4 px-16 py-8 w-full h-40 bg-surface3 hover:bg-surface3-hover rounded-4 text-ellipsis"
-          ></input>
-          <div>
-            APIキーは
-            <Link
-              url="https://platform.openai.com/account/api-keys"
-              label="OpenAIのサイト"
-            />
-            で取得できます。取得したAPIキーをフォームに入力してください。
-          </div>
-          <div className="my-16">
-            入力されたAPIキーで、ブラウザから直接OpenAIのAPIを利用しますので、サーバー等には保存されません。
-            なお、利用しているモデルはGPT-3です。
-            <br />
-            ※APIキーや会話文はピクシブのサーバーに送信されません。
-          </div>
-        </div>
-        <div className="my-24">
           <button
             onClick={() => {
               setOpened(false);
